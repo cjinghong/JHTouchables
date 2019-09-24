@@ -1,0 +1,23 @@
+{
+  "name": "jhtouchables",
+  "version": "1.0.0",
+  "description": "React Native's TouchableOpacity that prevents double tapping, and even tapping on multiple TouchableOpacity at once!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TouchableOpacity",
+    "double",
+    "tap",
+    "touches",
+    "react",
+    "native"
+  ],
+  "author": "Chan Jing Hong",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.60.5"
+  }
+}
