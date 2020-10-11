@@ -13,7 +13,6 @@ class MSATouchableOpacity extends Component {
       <TouchableOpacity
         {...otherProps}
         onPress={() => {
-          // TODO: - Check
           if (canTapButton()) {
             didTapButton();
             onPress();
