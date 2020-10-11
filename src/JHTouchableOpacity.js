@@ -6,12 +6,12 @@ import TouchableController from './TouchableController';
 const controller = TouchableController.getInstance();
 const { didTapButton, canTapButton } = controller;
 
-class MSATouchableOpacity extends Component {
+class JHTouchableOpacity extends Component {
   render() {
-    const { children, onPress, ...otherProps } = this.props;
+    const { children, onPress, ...others } = this.props;
     return (
       <TouchableOpacity
-        {...otherProps}
+        {...others}
         onPress={() => {
           if (canTapButton()) {
             didTapButton();
@@ -25,4 +25,4 @@ class MSATouchableOpacity extends Component {
   }
 }
 
-export default MSATouchableOpacity;
+export default JHTouchableOpacity;
